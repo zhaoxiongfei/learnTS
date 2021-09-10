@@ -9,6 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@wendellhu/memoize": "^0.1.0"
+    "@domain.js/cache": "^2.0.2",
+    "@wendellhu/memoize": "^0.1.0",
+    "ts-node": "^10.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.13"
   }
 }
