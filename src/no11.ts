@@ -1,13 +1,12 @@
-// @link https://github.com/semlinker/awesome-typescript/issues/30
+// @link https://github.com/semlinker/awesome-typescript/issues/29
+// 实现一个 IsEqual 工具类型，用于比较两个类型是否相等。具体的使用示例如下所示：
 
-// 实现一个 Head 工具类型，用于获取数组类型的第一个类型。具体的使用示例如下所示：
-
-// 解法1 根据数组形状来获取
-// type Head<T extends Array<any>> = T extends [infer F, ...infer Rest] ? F : never;
-// 解法2 确保数组不为空的之后，直接通过索引0获取
-type Head<T extends Array<any>> = T["length"] extends 0 ? never : T[0];
+type IsEqual<A, B> = [A] extends [B] ? [B] extends [A] ? true : false: false;
 
 // 测试用例
-type H0 = Head<[]> // never
-type H1 = Head<[1]> // 1
-type H2 = Head<[3, 2]> // 3
+type E0 = IsEqual<1, 2>; // false
+type E1 = IsEqual<{ a: 1 }, { a: 1 }> // true
+type E2 = IsEqual<[1], []>; // false
+type E3 = IsEqual<never, never>; // true
+type E4 = IsEqual<1 | 2, 2 | 1>; // true
+type E5 = IsEqual<any, any>; // true
