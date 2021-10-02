@@ -31,7 +31,8 @@ type OptionalKeysII<T> = keyof {
   [k in keyof T as Partial<T>[k] extends T[k] ? k : never]: true
 }
 
-type OptionalKeysII<T, Ot = Partial<T>> = keyof {
+// Why? error
+type OptionalKeysIII<T, Ot = Partial<T>> = keyof {
   [k in keyof T as Ot[k] extends T[k] ? k : never]: true
 }
 
