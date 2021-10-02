@@ -20,3 +20,4 @@ type T03 = Unpacked<Promise<string>>;  // string
 type T04 = Unpacked<Unpacked<Promise<string>[]>>;  // string
 type T05 = Unpacked<any>;  // any
 type T06 = Unpacked<never>;  // never
+type T07 = Unpacked<() => void>;  // void
