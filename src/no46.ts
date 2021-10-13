@@ -8,17 +8,8 @@ interface Person {
   gender?: number;
 }
 
-type Simplify<T> = {
-  [k in keyof T]: T[k];
-};
-
-type SetRequired<T, K extends keyof T> = Simplify<
-  {
-    [k in K]-?: T[k];
-  } & Pick<T, Exclude<keyof T, K>>
->;
-
-type RequireAllOrNone<T, K extends keyof T> = SetRequired<T, K> | Omit<T, K>;
+// type RequireAllOrNone<T, K extends keyof T> = SetRequired<T, K> | Omit<T, K>;
+type RequireAllOrNone<T, K extends keyof T> = Omit<T, K> & (Required<Pick<T, K>> | Partial<Record<K, never>>)
 
 const p1: RequireAllOrNone<Person, "age" | "gender"> = {
   name: "lolo"
@@ -30,9 +21,7 @@ const p2: RequireAllOrNone<Person, "age" | "gender"> = {
   gender: 1
 };
 
-// const p3: RequireAllOrNone<Person, "age" | "gender"> = {
-const p3: SetRequired<Person, "age" | "gender"> = {
-// const p3: Omit<Person, "age" | "gender"> = {
+const p3: RequireAllOrNone<Person, "age" | "gender"> = {
   name: "lolo",
   age: 7,
 };
