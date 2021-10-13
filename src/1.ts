@@ -4,6 +4,7 @@ type Person = {
   age: number;
   from?: string;
   speak?: string;
+  gender?: number;
 };
 
 type OptionalKeys<T> = {
@@ -12,3 +13,5 @@ type OptionalKeys<T> = {
 
 // 测试用例
 type PersonOptionalKeys = OptionalKeys<Person> // "from" | "speak"
+
+export {}

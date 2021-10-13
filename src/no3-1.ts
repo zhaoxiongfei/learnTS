@@ -17,3 +17,5 @@ type Foo = {
 
 // 测试用例
 type SomeOptional = SetOptional<Foo, 'a' | 'b'>;
+
+export {}

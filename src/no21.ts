@@ -15,3 +15,5 @@ type Merge<FirstType, SecondType> = Simplify<Omit<FirstType, keyof SecondType> &
 
 type T1 = Merge<Foo, Bar>
 const ab: Merge<Foo, Bar> = { a: 1, b: 2 };
+
+export {}

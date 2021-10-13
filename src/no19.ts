@@ -40,3 +40,5 @@ type Optional<T, Ot = Partial<T>> = Ot;
 
 type PersonOptionalKeys = OptionalKeys<Person> // "from" | "speak"
 type PersonOptionalKeys1 = OptionalKeysII<Person1> // "from" | "speak"
+
+export {}

@@ -28,3 +28,5 @@ type SomeRequired = SetRequired<Foo, 'b' | 'c'>;
 // 	b: string; // 保持不变
 // 	c: boolean; // 该属性已变成必填
 // }
+
+export {};
