@@ -12,3 +12,8 @@ type C0 = ConsistsOnlyOf<'aaa', 'a'> //=> true
 type C1 = ConsistsOnlyOf<'ababab', 'ab'> //=> true
 type C2 = ConsistsOnlyOf<'aBa', 'a'> //=> false
 type C3 = ConsistsOnlyOf<'', 'a'> //=> true
+
+// 思路: 字符串匹配，利用 extends 、利用ts下支持的模板字符串语法，利用 infer 从开头一步步的去匹配，减治的思想。
+// 随着递归的深入字符串愈来愈短，直至为空，注意空的话算匹配成功。
+
+export {}
