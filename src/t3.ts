@@ -1,13 +1,15 @@
-function addProp(constructor: Function) {
-  constructor.prototype.job = 'fe';
+{
+  const a = 'hello'
+  console.log('xxxx: %s', a)
 }
 
-@addProp
-class P {
-  job: string;
-  constructor(public name: string) {}
+{
+
+  let x = 20;
+  while(x -= 1) {
+    label: console.log('label')
+    if (x < 10) continue label 10;
+    console.log('noraml: %d', x)
+  }
+
 }
-
-let p = new P('林不渡');
-
-console.log(p.job); // fe
