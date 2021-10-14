@@ -26,6 +26,7 @@
 ## 其他
 
 - [TypeScript 高级类型](https://segmentfault.com/a/1190000011210668)
+- [细数 TS 中那些奇怪的符号](https://mp.weixin.qq.com/s/8b9wAwyhr1HLuT3RqxxvHw)
 - [ts-node 的那些坑](https://zhuanlan.zhihu.com/p/270592378)
 - [2021 年 node.js 对 typescript 的支持如何？](https://www.zhihu.com/question/450538039/answer/1796003646)
 - [swc 很好，也还不够好](https://zhuanlan.zhihu.com/p/386730674)
