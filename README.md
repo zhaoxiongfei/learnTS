@@ -14,6 +14,7 @@
 - [TS 系列篇 | 高级数据类型](https://juejin.cn/post/7008872026978910221)
 - [Ts 高手篇：22 个示例深入讲解 Ts 最晦涩难懂的高级类型工具](https://juejin.cn/post/6994102811218673700)
 - [重学 TypeScript](https://juejin.cn/post/7003171767560716302)
+- [TS 类这十个知识点你都掌握了么？](https://mp.weixin.qq.com/s/y6JDmZU10QnVv7A_AJ1I2g)
 
 ## 编译相关
 
