@@ -140,4 +140,7 @@ sequelize.addModels([Temp, Temp2]);
   await user.save();
   const json = user.toJSON();
   console.log(json);
+
+  const json2 = temp.toJSON() as Temp2;
+  console.log(json2.name);
 })();
