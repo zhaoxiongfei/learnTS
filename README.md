@@ -15,6 +15,7 @@
 - [Ts 高手篇：22 个示例深入讲解 Ts 最晦涩难懂的高级类型工具](https://juejin.cn/post/6994102811218673700)
 - [重学 TypeScript](https://juejin.cn/post/7003171767560716302)
 - [TS 类这十个知识点你都掌握了么？](https://mp.weixin.qq.com/s/y6JDmZU10QnVv7A_AJ1I2g)
+- [Sequelize Model define with TypeScript](https://dev.to/jctaveras/sequelize-typescript-what-you-need-to-know-41mj)
 
 ## 编译相关
 
