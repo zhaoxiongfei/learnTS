@@ -48,9 +48,9 @@ function isFoo(arg: Foo | Bar): arg is Foo {
 
 const foo: Foo = {
   foo: 20,
-  common: 'hello'
-}
-console.log(isFoo(foo));
+  common: "hello"
+};
+const t1 = isFoo(foo);
 
 type T1 = {
   name: Date;
