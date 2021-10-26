@@ -60,4 +60,10 @@ const key = "name";
 type T2 = T1[key]; // Error
 type T3 = T1["name"]; // ok
 
+type A1 = {
+  readonly value: number;
+};
+const a: A1 = { value: 20 };
+a.value = 30;
+
 export {};

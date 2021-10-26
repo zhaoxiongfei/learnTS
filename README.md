@@ -33,6 +33,7 @@
 - [2021 年 node.js 对 typescript 的支持如何？](https://www.zhihu.com/question/450538039/answer/1796003646)
 - [swc 很好，也还不够好](https://zhuanlan.zhihu.com/p/386730674)
 - [在 TS 中如何实现类型保护？类型谓词了解一下](https://mp.weixin.qq.com/s/nq3bxIbyFJPqs-hXRmfqnQ)
+- [Typescript 4.5 —— 浅谈模块能力增强](https://zhuanlan.zhihu.com/p/425740447)
 
 # TypeScript 项目源码解读
 
