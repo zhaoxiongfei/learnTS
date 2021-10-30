@@ -34,6 +34,8 @@
 - [swc 很好，也还不够好](https://zhuanlan.zhihu.com/p/386730674)
 - [在 TS 中如何实现类型保护？类型谓词了解一下](https://mp.weixin.qq.com/s/nq3bxIbyFJPqs-hXRmfqnQ)
 - [Typescript 4.5 —— 浅谈模块能力增强](https://zhuanlan.zhihu.com/p/425740447)
+- [用 TypeScript 类型运算实现一个中国象棋程序](https://zhuanlan.zhihu.com/p/426966480)
+- [TypeScript 类型体操天花板，用类型运算写一个 Lisp 解释器](https://zhuanlan.zhihu.com/p/427309936)
 
 # TypeScript 项目源码解读
 
